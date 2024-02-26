@@ -1,0 +1,34 @@
+.custom-orange {
+    color: #fb6638;
+}
+.custom-blue {
+    color: #1AADE1;
+}
+.bg-blue {
+    background-color: #0C77B9;
+}
+.bg-white {
+    background-color: white;
+}
+.custom-hero-bg {
+    background-image: url('bg-hero.jpg');
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    min-height:650px;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.hero-btn {
+    background-color: #fb6638;
+    color: white;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1900px) {
+
+    .custom-hero-bg {
+        /* height: auto; */
+        background-size:100%;
+    }
+}
